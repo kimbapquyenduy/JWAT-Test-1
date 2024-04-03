@@ -149,7 +149,7 @@ export const Nav = () => {
           className="md:w-[20%]  h-full 
          items-center  md:justify-center hidden md:flex"
         >
-          <div className="w-[12vw] lg:w-[8vw] ">
+          <div className="w-[12vw] lg:w-[9vw] xl:w-[8vw] min-[1536px]:w-[7vw]">
             <div className="w-full cursor-pointer  py-[6px] bg-white text-center rounded-lg text-[#03205d] font-semibold hover:bg-blue-500 hover:text-white transition-all">
               Contact Us
             </div>

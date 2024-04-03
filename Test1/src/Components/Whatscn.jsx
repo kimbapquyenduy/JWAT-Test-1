@@ -21,7 +21,7 @@ export const Whatscn = () => {
           <div className="text-white text-[20px] font-bold mb-4">
             Customer’s Requirements Managed By Help Desk Software.
           </div>
-          <div className="text-white text-[15px]  ">
+          <div className="text-white text-[16px]  ">
             Enable to provide quick and easy answers to help seekers. Makes it
             simple to organize, prioritize.
           </div>
@@ -36,7 +36,7 @@ export const Whatscn = () => {
           <div className="text-black text-[20px] font-semibold mb-4">
             Deliver On SLAs
           </div>
-          <div className="text-black text-[15px] ">
+          <div className="text-black text-[16px] ">
             Nail your Service Level Agreements, every time. Get the important
             things done first with prioritized queues.
           </div>
@@ -52,7 +52,7 @@ export const Whatscn = () => {
           <div className="text-white text-[20px] font-bold mb-4">
             Offer Self-Service
           </div>
-          <div className="text-white text-[15px] ">
+          <div className="text-white text-[16px] ">
             Help customers help themselves, scale support with a limited staff.
             Save time and reduce tickets with an integrated knowledge base.
           </div>
@@ -68,7 +68,7 @@ export const Whatscn = () => {
           <div className="text-black text-[20px] font-semibold mb-4">
             Automate Those Repetitive Tasks
           </div>
-          <div className="text-black text-[15px] ">
+          <div className="text-black text-[16px] ">
             We always try to set up automations for the routine tasks so that we
             can focus on solving the important stuff and help lighten the
             workload.
@@ -85,7 +85,7 @@ export const Whatscn = () => {
           <div className="text-white text-[20px] font-bold mb-4">
             Customer’s Requirements Tracked And Reported On Metrics
           </div>
-          <div className="text-white text-[15px] ">
+          <div className="text-white text-[16px] ">
             We definitely keep an eye on key operational metrics like most IT
             organizations. But we’ve stopped obsessing over random KPIs, and
             we’re way more focused now on measuring what matters most. To
@@ -104,7 +104,7 @@ export const Whatscn = () => {
           <div className="text-black text-[20px] font-semibold mb-4">
             Up-To-Date Staff Training
           </div>
-          <div className="text-black text-[15px] ">
+          <div className="text-black text-[16px] ">
             CLV helpdesk’s tool is always available with the up to date
             workaround, training materials, guideline document, FAQ from users…
             We had a clear plan to make sure all of helpdesk team members could

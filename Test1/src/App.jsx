@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <Nav />
-      <div className=" mt-36 mb-10 mr-4 ml-4 lg:ml-20 md:ml-8">
+      <div className="md:mt-36 mt-24 mb-10 mr-4 ml-4 lg:ml-20 md:ml-8">
         <VideoGSD />
         <Whatscn />
         <Pagenav />

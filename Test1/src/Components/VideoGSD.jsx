@@ -22,7 +22,7 @@ export const VideoGSD = () => {
         <div className=" my-2 text-[#3bc4e2] w-[100%]   text-3xl lg:text-5xl  lg:w-[80%] md:w-[90%]  ">
           Global Service Desk
         </div>
-        <div className=" md:w-[95%]  text-base  w-[100%] lg:w-[80%] lg:text-xl   ">
+        <div className=" md:w-[95%]  text-base  w-[100%] lg:w-[75%] lg:text-xl   ">
           We play the roles as the support frontiers and the representatives of
           the IT support. The Global Service Desk is the center where customers
           (e.g. employees or other stakeholders) can approach for help from
