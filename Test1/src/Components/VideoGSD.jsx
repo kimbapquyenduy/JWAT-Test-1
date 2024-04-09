@@ -9,20 +9,17 @@ export const VideoGSD = () => {
           height="100%"
           src="https://www.youtube.com/embed/rNjUDw5E6tY?autoplay=true"
           title="CyberLogitec ONE final101818 1"
-          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
         ></iframe>
       </div>
       <div className="md:w-[55%] md:mt-0 w-full ml-0 mt-4 ">
-        <div className=" text-[#130a3d] font-normal w-[100%] text-3xl lg:text-5xl lg:w-[90%] md:w-[90%]  ">
+        <div className=" text-[#130a3d] font-normal w-[100%] text-3xl lg:text-4xl xl:text-5xl lg:w-[90%] md:w-[90%]  ">
           Create a Global Support Hub with
         </div>
-        <div className=" my-2 text-[#3bc4e2] w-[100%]   text-3xl lg:text-5xl  lg:w-[80%] md:w-[90%]  ">
+        <div className=" my-2 text-[#3bc4e2] w-[100%]   text-3xl lg:text-4xl xl:text-5xl  lg:w-[80%] md:w-[90%]  ">
           Global Service Desk
         </div>
-        <div className=" md:w-[95%]  text-base  w-[100%] lg:w-[75%] lg:text-xl   ">
+        <div className=" md:w-[95%]  text-base  w-[100%] lg:w-[75%] lg:text-lg xl:text-xl  ">
           We play the roles as the support frontiers and the representatives of
           the IT support. The Global Service Desk is the center where customers
           (e.g. employees or other stakeholders) can approach for help from

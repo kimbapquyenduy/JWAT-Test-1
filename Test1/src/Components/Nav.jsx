@@ -4,7 +4,7 @@ import { BarsOutlined, DownOutlined, ProfileFilled } from "@ant-design/icons";
 import { useState } from "react";
 
 export const Nav = () => {
-  const Solution = [
+  const solutions = [
     {
       key: "0",
       label: (
@@ -12,7 +12,7 @@ export const Nav = () => {
           target="_blank"
           className="underline font-bold text-base hover:text-[#3bc4e2] z-20"
         >
-          OverView
+          Overview
         </a>
       ),
     },
@@ -49,12 +49,12 @@ export const Nav = () => {
       ),
     },
   ];
-  const Services = [
+  const services = [
     {
       key: "0",
       label: (
         <a target="_blank" className="underline text-base font-bold">
-          OverView
+          Overview
         </a>
       ),
     },
@@ -83,12 +83,12 @@ export const Nav = () => {
       ),
     },
   ];
-  const Careers = [
+  const careers = [
     {
       key: "0",
       label: (
         <a target="_blank" className="underline text-base font-bold">
-          OverView
+          Overview
         </a>
       ),
     },
@@ -121,20 +121,20 @@ export const Nav = () => {
         <div className="w-[35vw] md:w-[25%] h-full flex items-center justify-center ml-4 sm:ml-0">
           <img src="/logo.png" />
         </div>
-        <div className="w-[55%] h-full  items-center justify-center space-x-6 hidden md:flex ">
-          <Dropdown menu={{ items: Solution }} placement="bottomLeft">
+        <div className="w-[55%] h-full  items-center justify-center md:space-x-3 lg:space-x-6 hidden md:flex ">
+          <Dropdown menu={{ items: solutions }} placement="bottomLeft">
             <div className="text-lg text-white font-bold  cursor-pointer hover:text-[#3bc4e2] transition-all">
-              Solution
+              Solutions
               <DownOutlined className="text-xs ml-1" />
             </div>
           </Dropdown>
-          <Dropdown menu={{ items: Services }} placement="bottomLeft">
+          <Dropdown menu={{ items: services }} placement="bottomLeft">
             <div className="text-lg text-white font-bold  cursor-pointer hover:text-[#3bc4e2] transition-all">
               Services
               <DownOutlined className="text-xs ml-1" />
             </div>
           </Dropdown>
-          <Dropdown menu={{ items: Careers }} placement="bottomLeft">
+          <Dropdown menu={{ items: careers }} placement="bottomLeft">
             <div className="text-lg text-white font-bold cursor-pointer hover:text-[#3bc4e2] transition-all">
               Careers
               <DownOutlined className="text-xs ml-1" />
@@ -150,12 +150,13 @@ export const Nav = () => {
          items-center  md:justify-center hidden md:flex"
         >
           <div className="w-[12vw] lg:w-[9vw] xl:w-[8vw] min-[1536px]:w-[7vw]">
-            <div className="w-full cursor-pointer  py-[6px] bg-white text-center rounded-lg text-[#03205d] font-semibold hover:bg-blue-500 hover:text-white transition-all">
+            <div className="w-full cursor-pointer  py-[6px] bg-white text-center rounded-lg text-[#03205d] font-semibold hover:bg-[#3bc4e2] hover:text-white transition-all">
               Contact Us
             </div>
           </div>
         </div>
-        <div className="w-[57vw] flex h-full items-center justify-end md:hidden ">
+        {/* Box for mobile  */}
+        <div className="w-[56vw] sm:w-[59vw] flex h-full items-center justify-end md:hidden ">
           {isClick ? (
             <BarsOutlined
               className="text-white text-2xl rotate-90 transition-all	"
@@ -169,6 +170,7 @@ export const Nav = () => {
           )}
         </div>
       </div>
+      {/* Dropdown for mobile */}
       {isClick ? (
         <div className="bg-[#03204c] w-full h-[200px] fixed top-16 md:hidden transition-all ">
           <div className="w-[20%] px-5 py-2 ">
@@ -179,19 +181,19 @@ export const Nav = () => {
             </div>
           </div>
           <div className="w-full h-[65%] flex flex-col   justify-between  px-[7vw]  ">
-            <Dropdown menu={{ items: Solution }} placement="bottomLeft">
+            <Dropdown menu={{ items: solutions }} placement="bottomLeft">
               <div className=" text-white font-bold  cursor-pointer hover:text-[#3bc4e2] transition-all flex justify-between">
-                Solution
+                Solutions
                 <DownOutlined className="text-xs ml-1" />
               </div>
             </Dropdown>
-            <Dropdown menu={{ items: Services }} placement="bottomLeft">
+            <Dropdown menu={{ items: services }} placement="bottomLeft">
               <div className=" text-white font-bold  cursor-pointer hover:text-[#3bc4e2] transition-all flex justify-between">
                 Services
                 <DownOutlined className="text-xs ml-1" />
               </div>
             </Dropdown>
-            <Dropdown menu={{ items: Careers }} placement="bottomLeft">
+            <Dropdown menu={{ items: careers }} placement="bottomLeft">
               <div className=" text-white font-bold cursor-pointer hover:text-[#3bc4e2] transition-all flex justify-between">
                 Careers
                 <DownOutlined className="text-xs ml-1" />

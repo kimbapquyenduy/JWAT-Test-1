@@ -36,13 +36,13 @@ export const Whatscn = () => {
           <div className="text-black text-[20px] font-semibold mb-4">
             Deliver On SLAs
           </div>
-          <div className="text-black text-[16px] ">
+          <div className="text-black text-[16px]">
             Nail your Service Level Agreements, every time. Get the important
             things done first with prioritized queues.
           </div>
         </div>
 
-        <div className=" w-full mt-6 md:w-[48%] lg:w-[31%] md:min-h-[373px] lg:order-3 md:order-4  bg-[#142f58] md:ml-5 lg:ml-5 rounded-xl  border border-gray-300 border-solid p-5">
+        <div className="w-full mt-6 md:w-[48%] lg:w-[31%] md:min-h-[373px] lg:order-3 md:order-4  bg-[#142f58] md:ml-5 lg:ml-5 rounded-xl  border border-gray-300 border-solid p-5">
           <div className="flex justify-center my-5 ">
             <img
               src="https://www.cyberlogitec.com.vn/_next/image?url=%2Fstatic%2Fimages%2Fservices%2Fvector3.png&w=128&q=75"
