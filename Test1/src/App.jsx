@@ -2,7 +2,7 @@ import "./App.css";
 import { Nav } from "./Components/Nav";
 import { VideoGSD } from "./Components/VideoGSD";
 import { Footer } from "./Components/Footer";
-import { Whatscn } from "./Components/WhatScn";
+import { Whatscn } from "./Components/WhatSCN";
 import { Pagenav } from "./Components/PageNav";
 
 function App() {
