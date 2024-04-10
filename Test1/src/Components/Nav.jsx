@@ -2,6 +2,8 @@ import { Button, Dropdown, Image } from "antd";
 import React from "react";
 import { BarsOutlined, DownOutlined, ProfileFilled } from "@ant-design/icons";
 import { useState } from "react";
+import { useRef } from "react";
+import { useEffect } from "react";
 
 export const Nav = () => {
   const solutions = [
@@ -110,18 +112,31 @@ export const Nav = () => {
     },
   ];
 
+  let navMenu = useRef();
+
   const [isClick, setIsClick] = useState(false);
   const click = () => {
     isClick ? setIsClick(false) : setIsClick(true);
   };
 
+  useEffect(() => {
+    let event = (e) => {
+      if (!navMenu.current.contains(e.target)) {
+        setIsClick(false);
+      }
+    };
+    document.addEventListener("click", event);
+    return () => {
+      document.removeEventListener("click", event);
+    };
+  });
   return (
-    <div className="">
+    <div ref={navMenu}>
       <div className="w-full h-[70px] bg-[#03204c] flex  items-center fixed top-0 z-50">
-        <div className="w-[35vw] md:w-[25%] h-full flex items-center justify-center ml-4 sm:ml-0">
-          <img src="/logo.png" />
+        <div className="w-[22vw] sm:w-[15vw] md:w-[15%] lg:w-[13%] xl:w-[10%] 2xl:w-[6%] h-full flex items-center md:justify-center ml-6 sm:ml-8 lg:ml-[5rem] cursor-pointer">
+          <img src="/CLT_Logo-W.png" alt="CLT_Logo" />
         </div>
-        <div className="w-[55%] h-full  items-center justify-center md:space-x-3 lg:space-x-6 hidden md:flex ">
+        <div className="w-[55%] md:w-[60%] xl:w-[65%] 2xl:w-[70%] h-full  items-center justify-center md:space-x-3 lg:space-x-6 hidden md:flex ">
           <Dropdown menu={{ items: solutions }} placement="bottomLeft">
             <div className="text-lg text-white font-bold  cursor-pointer hover:text-[#3bc4e2] transition-all">
               Solutions
@@ -156,7 +171,7 @@ export const Nav = () => {
           </div>
         </div>
         {/* Box for mobile  */}
-        <div className="w-[56vw] sm:w-[59vw] flex h-full items-center justify-end md:hidden ">
+        <div className="w-[66vw] min-[500px]:w-[68vw] sm:w-[74vw] flex h-full items-center justify-end md:hidden ">
           {isClick ? (
             <BarsOutlined
               className="text-white text-2xl rotate-90 transition-all	"

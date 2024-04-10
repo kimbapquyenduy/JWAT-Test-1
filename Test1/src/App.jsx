@@ -5,8 +5,8 @@ import "./App.css";
 import { Nav } from "./Components/Nav";
 import { VideoGSD } from "./Components/VideoGSD";
 import { Footer } from "./Components/Footer";
-import { Whatscn } from "./Components/Whatscn";
-import { Pagenav } from "./Components/Pagenav";
+import { Whatscn } from "./Components/WhatScn";
+import { Pagenav } from "./Components/PageNav";
 
 function App() {
   return (

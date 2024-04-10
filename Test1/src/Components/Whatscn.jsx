@@ -58,7 +58,7 @@ export const Whatscn = () => {
           </div>
         </div>
 
-        <div className=" w-full mt-6 md:w-[48%] lg:w-[31%] md:min-h-[373px] lg:order-4 md:order-3 bg-[#f5f5f5]  lg:ml-0 md:ml-0 rounded-xl  border border-gray-300 border-solid p-5">
+        <div className="w-full mt-6 md:w-[48%] lg:w-[31%] md:min-h-[373px] lg:order-4 md:order-3 bg-[#f5f5f5]  lg:ml-0 md:ml-0 rounded-xl  border border-gray-300 border-solid p-5">
           <div className="flex justify-center my-7 ">
             <img
               src="https://www.cyberlogitec.com.vn/_next/image?url=%2Fstatic%2Fimages%2Fservices%2Fvector4.png&w=128&q=75"
@@ -75,7 +75,7 @@ export const Whatscn = () => {
           </div>
         </div>
 
-        <div className=" w-full mt-6 md:w-[48%] lg:w-[31%] md:min-h-[373px] md:order-5  bg-[#142f58] lg:ml-5 rounded-xl  border border-gray-300 border-solid p-5">
+        <div className="w-full mt-6 md:w-[48%] lg:w-[31%] md:min-h-[373px] md:order-5  bg-[#142f58] lg:ml-5 rounded-xl  border border-gray-300 border-solid p-5">
           <div className="flex justify-center my-5 ">
             <img
               src="https://www.cyberlogitec.com.vn/_next/image?url=%2Fstatic%2Fimages%2Fservices%2Fvector5.png&w=128&q=75"
@@ -94,7 +94,7 @@ export const Whatscn = () => {
             biggest improvements.
           </div>
         </div>
-        <div className=" w-full mt-6 md:w-[48%] lg:w-[31%] md:min-h-[373px] md:order-6 bg-[#f5f5f5] md:ml-5 rounded-xl  border border-gray-300 border-solid p-5">
+        <div className="w-full mt-6 md:w-[48%] lg:w-[31%] md:min-h-[373px] md:order-6 bg-[#f5f5f5] md:ml-5 rounded-xl  border border-gray-300 border-solid p-5">
           <div className="flex justify-center my-5 ">
             <img
               src="https://www.cyberlogitec.com.vn/_next/image?url=%2Fstatic%2Fimages%2Fservices%2Fvector6.png&w=128&q=75"
